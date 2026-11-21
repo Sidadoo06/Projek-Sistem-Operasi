@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160" width="3840" height="2160">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#cfd9f7"/>
+      <stop offset="0.5" stop-color="#e8dbf7"/>
+      <stop offset="1" stop-color="#fbd9d2"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="2770" cy="800" r="1200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="peach" cx="700" cy="2200" r="1800" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb9a3" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffb9a3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="moon" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3e8ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+  <rect width="3840" height="2160" fill="url(#bg)"/>
+  <rect width="3840" height="2160" fill="url(#peach)"/>
+  <rect width="3840" height="2160" fill="url(#glow)"/>
+  <path d="M 2676.53 430.84 A 330 330 0 1 1 2405.56 909.01 A 275 275 0 1 0 2676.53 430.84 Z" fill="#9a86d6" opacity="0.35" transform="translate(0 40)" filter="url(#shadow)"/>
+  <path d="M 2676.53 430.84 A 330 330 0 1 1 2405.56 909.01 A 275 275 0 1 0 2676.53 430.84 Z" fill="url(#moon)"/>
+</svg>
