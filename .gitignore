@@ -1,0 +1,19 @@
+# Hasil build dan file besar
+*.iso
+*.md5
+*.zip
+*.log
+
+# Folder kerja Cubic / build
+custom-root/
+custom-disk/
+.build/
+lune-build/
+
+# Ekstensi GNOME yang di-stage oleh scripts/10-stage-overlay.sh
+# (hasil salinan dari desktop masing-masing, bukan sumber asli)
+iso/overlay/usr/share/gnome-shell/extensions/
+
+# Lain-lain
+.DS_Store
+*~
